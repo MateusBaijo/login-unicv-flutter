@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5DAE62E7-DAB3-3D66-A892-7043F5285864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3BB3B2A7-13D6-37A5-9B21-9C803CE44F7A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

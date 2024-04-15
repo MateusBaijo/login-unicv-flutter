@@ -1,0 +1,10 @@
+^D:\BACKUP MATEUS BAIJO 26 02 2022\DOWNLOADS\LOGIN-FLUTTER-MAIN\LOGIN-FLUTTER-MAIN\BUILD\WINDOWS\X64\CMAKEFILES\BF79CB4D506531C0A8098B7A836F3581\GENERATE.STAMP.RULE
+setlocal
+"D:\visual studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/windows" "-BD:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/build/windows/x64/tela_login.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

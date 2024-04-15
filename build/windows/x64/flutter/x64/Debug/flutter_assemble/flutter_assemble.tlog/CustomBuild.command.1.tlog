@@ -1,0 +1,28 @@
+^D:\BACKUP MATEUS BAIJO 26 02 2022\DOWNLOADS\LOGIN-FLUTTER-MAIN\LOGIN-FLUTTER-MAIN\BUILD\WINDOWS\X64\CMAKEFILES\C576F35C808499A852B78A113490356F\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"D:\visual studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter\flutter "PROJECT_DIR=D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main" FLUTTER_ROOT=C:\flutter\flutter "FLUTTER_EPHEMERAL_DIR=D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\windows\flutter\ephemeral" "PROJECT_DIR=D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main" "FLUTTER_TARGET=D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNDgxN2M5OWM5ZmQ0OTU2ZjI3NTA1MjA0ZjdlMzQ0MzM1ODEwYWVkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\BACKUP MATEUS BAIJO 26 02 2022\Downloads\login-flutter-main\login-flutter-main\.dart_tool\package_config.json" C:/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BACKUP MATEUS BAIJO 26 02 2022\DOWNLOADS\LOGIN-FLUTTER-MAIN\LOGIN-FLUTTER-MAIN\BUILD\WINDOWS\X64\CMAKEFILES\22120FB911AF83B487F756F7160276E4\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\BACKUP MATEUS BAIJO 26 02 2022\DOWNLOADS\LOGIN-FLUTTER-MAIN\LOGIN-FLUTTER-MAIN\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"D:\visual studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/windows" "-BD:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/build/windows/x64" --check-stamp-file "D:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

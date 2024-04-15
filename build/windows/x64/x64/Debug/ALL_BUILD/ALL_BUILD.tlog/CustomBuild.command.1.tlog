@@ -1,0 +1,10 @@
+^D:\BACKUP MATEUS BAIJO 26 02 2022\DOWNLOADS\LOGIN-FLUTTER-MAIN\LOGIN-FLUTTER-MAIN\WINDOWS\CMAKELISTS.TXT
+setlocal
+"D:\visual studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/windows" "-BD:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/build/windows/x64" --check-stamp-file "D:/BACKUP MATEUS BAIJO 26 02 2022/Downloads/login-flutter-main/login-flutter-main/build/windows/x64/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
